@@ -1,0 +1,37 @@
+@import "./wrapper.css";
+@import "./header.css";
+@import "./title.css";
+@import "./text.css";
+@import "./subtitle.css";
+@import "./hero.css";
+@import "./project.css";
+@import "./button.css";
+@import "./experience.css";
+@import "./footer.css";
+
+:root {
+  --fontbase: "Inter", sans-serif;
+  --headline1: bold 4.5rem/5rem var(--fontbase);
+  --headline2: bold 4rem/4.75rem var(--fontbase);
+  --headline3: bold 2rem/2rem var(--fontbase);
+  --headline4: bold 1.5rem/1.625rem var(--fontbase);
+  --headline5: bold 1.25rem/1.625rem var(--fontbase);
+  --body1: 1rem/1.6rem var(--fontbase);
+  --body2: 400 0.9rem/1.5rem var(--fontbase);
+  --button: bold 1.125rem/1.68rem var(--fontbase);
+  --primary: #2b79bd;
+  --white: #fffffe;
+  --grey: #5f6c7b;
+  --secondary: #90b4ce;
+  --tertiary: #ef4565;
+  --blue: #094067;
+  --background1: #d8eefe;
+  --background2: #242629;
+  --buttoncolor1: #eaf0f3;
+  --buttoncolor2: #3da9fc;
+}
+
+body {
+  margin: 0;
+  font: var(--body1);
+}

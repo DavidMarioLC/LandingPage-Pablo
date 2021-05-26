@@ -1,0 +1,13 @@
+.text {
+  font: var(--body1);
+}
+
+.text.primary {
+  color: var(--grey);
+}
+
+.text.secondary {
+  font: var(--body2);
+  color: var(--white);
+  margin: 0;
+}

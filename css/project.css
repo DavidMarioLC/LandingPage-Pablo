@@ -1,0 +1,20 @@
+.project {
+  background: var(--background1);
+  padding: 5rem 0;
+}
+
+.project__content {
+}
+
+.project-image {
+}
+
+.project-image img {
+  max-width: 100%;
+}
+
+.groupButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

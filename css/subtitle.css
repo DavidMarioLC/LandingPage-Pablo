@@ -1,0 +1,6 @@
+.subtitle {
+  font: var(--body1);
+  font-weight: bold;
+  color: var(--white);
+  margin: 1rem 0;
+}
