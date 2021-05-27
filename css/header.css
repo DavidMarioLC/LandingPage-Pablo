@@ -1,8 +1,137 @@
 .header {
   background: var(--white);
+  position: sticky;
+  top: 0;
 }
 .header__content {
   padding: 1.25rem 0;
   display: flex;
   justify-content: space-between;
+}
+/* menu-mobile */
+
+.menu {
+  opacity: 0;
+  position: fixed;
+  top: 64px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(var(--white) 35%, rgba(63, 60, 60, 0.349) 65%);
+  padding: 32px 0;
+  transition: opacity 0.5s linear;
+}
+.show {
+  opacity: 1;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu-link {
+  color: var(--secondary);
+  font-weight: bold;
+}
+/* active menu */
+.active {
+  color: var(--primary);
+  display: block;
+  font-weight: bold;
+}
+
+/*-- menu animado--*/
+.menu-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  cursor: pointer;
+}
+.icon {
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 4px;
+  background: var(--secondary);
+  transform: translateY(10px);
+  transition: background 0.3s linear;
+}
+
+.icon:before {
+  content: "";
+  position: absolute;
+  transform: translateY(10px);
+  width: 24px;
+  height: 4px;
+  background: var(--secondary);
+  transition: transform 0.3s linear;
+}
+
+.icon:after {
+  content: "";
+  position: absolute;
+  transform: translateY(-10px);
+  width: 24px;
+  height: 4px;
+  background: var(--secondary);
+  transition: transform 0.3s linear;
+}
+/* animate for js */
+.menu-icon.animate .icon {
+  background: transparent;
+}
+.menu-icon.animate .icon:before {
+  transform: translateY(0px) rotate(45deg);
+}
+.menu-icon.animate .icon:after {
+  transform: translateY(0px) rotate(-45deg);
+}
+
+@media screen and (min-width: 768px) {
+  /* .menu-icon {
+    display: none;
+  } */
+  .menu {
+    opacity: 1;
+    height: 0;
+    position: initial;
+    top: initial;
+    left: 0;
+    right: 0;
+    width: 0;
+    background: var(--white);
+    padding: 0;
+  }
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .menu-link {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    color: var(--secondary);
+    font-weight: bold;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .active {
+    color: var(--primary);
+    border-bottom: 4px solid var(--primary);
+    display: block;
+  }
 }

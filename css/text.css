@@ -11,3 +11,11 @@
   color: var(--white);
   margin: 0;
 }
+
+@media screen and (min-width: 768px) {
+  .text.secondary {
+    font: var(--body1);
+    color: var(--white);
+    margin: 0;
+  }
+}

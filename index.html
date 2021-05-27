@@ -24,7 +24,17 @@
               title="Logo de pablo"
             />
           </a>
-          <span class="icon">Menu</span>
+          <nav class="menu">
+            <ul>
+              <li><a class="menu-link active" href="#">HOLA</a></li>
+              <li><a class="menu-link" href="#">PROYECTOS</a></li>
+              <li><a class="menu-link" href="#">TESTIMONIOS</a></li>
+              <li><a class="menu-link" href="#">CONTACTO</a></li>
+            </ul>
+          </nav>
+          <div class="menu-icon">
+            <span class="icon"></span>
+          </div>
         </div>
       </div>
     </header>
@@ -58,91 +68,93 @@
           </div>
         </div>
       </section>
-      <section class="project" aria-label="Proyectos de Pablo">
-        <div class="wrapper">
-          <div class="project__content">
-            <figure class="project-image">
-              <img
-                src="./image/project-1.png"
-                alt="Proyecto Netnet"
-                title="Proyecto Netnet"
-              />
-            </figure>
-            <div class="project-description">
-              <h1 class="title primary">Netnet</h1>
-              <p class="text primary">
-                Netnet es una de las plataformas de entretenimiento con más
-                ranking a nivel mundial y detrás de las películas y series que
-                nos ofrece, hay un diseño con el que está estructurada...
-              </p>
-              <div class="groupButtons">
-                <a href="#" class="button primary">Ver código</a>
-                <a href="#" class="button secundary">Ver código</a>
+      <div class="listProjects">
+        <section class="project" aria-label="Proyectos de Netnet">
+          <div class="wrapper">
+            <div class="project__content">
+              <figure class="project-image">
+                <img
+                  src="./image/project-1.png"
+                  alt="Proyecto Netnet"
+                  title="Proyecto Netnet"
+                />
+              </figure>
+              <div class="project-description">
+                <h1 class="title primary">Netnet</h1>
+                <p class="text primary">
+                  Netnet es una de las plataformas de entretenimiento con más
+                  ranking a nivel mundial y detrás de las películas y series que
+                  nos ofrece, hay un diseño con el que está estructurada...
+                </p>
+                <div class="groupButtons">
+                  <a href="#" class="button primary">Ver código</a>
+                  <a href="#" class="button secundary">Ver código</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="project" aria-label="Proyectos de Pablo">
-        <div class="wrapper">
-          <div class="project__content">
-            <figure class="project-image">
-              <img
-                src="./image/project-2.png"
-                alt="Proyecto Instantanea"
-                title="Proyecto Instantanea"
-              />
-            </figure>
-            <div class="project-description">
-              <h1 class="title primary">Instantanea</h1>
-              <p class="text primary">
-                Aplicación y red social propiedad de Facebook, cuya función
-                principal es poder compartir fotografías y vídeos con otros
-                usuarios.
-              </p>
-              <div class="groupButtons">
-                <a href="#" class="button primary">Ver código</a>
-                <a href="#" class="button secundary">Ver código</a>
+        </section>
+        <section class="project" aria-label="Proyectos de Instantanea">
+          <div class="wrapper">
+            <div class="project__content">
+              <figure class="project-image">
+                <img
+                  src="./image/project-2.png"
+                  alt="Proyecto Instantanea"
+                  title="Proyecto Instantanea"
+                />
+              </figure>
+              <div class="project-description">
+                <h1 class="title primary">Instantanea</h1>
+                <p class="text primary">
+                  Aplicación y red social propiedad de Facebook, cuya función
+                  principal es poder compartir fotografías y vídeos con otros
+                  usuarios.
+                </p>
+                <div class="groupButtons">
+                  <a href="#" class="button primary">Ver código</a>
+                  <a href="#" class="button secundary">Ver código</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="project" aria-label="Proyectos de Pablo">
-        <div class="wrapper">
-          <div class="project__content">
-            <figure class="project-image">
-              <img
-                src="./image/project-3.png"
-                alt="Proyecto Fotos"
-                title="Proyecto Fotos"
-              />
-            </figure>
-            <div class="project-description">
-              <h1 class="title primary">Fotos</h1>
-              <p class="text primary">
-                Encuentra tus fotos más rápido. Tus fotos se organizan y
-                permiten búsquedas en función de los lugares y las cosas que
-                muestran, sin necesidad de etiquetarlas.
-              </p>
-              <div class="groupButtons">
-                <a href="#" class="button primary">Ver código</a>
-                <a href="#" class="button secundary">Ver código</a>
+        </section>
+        <section class="project" aria-label="Proyectos de Fotos">
+          <div class="wrapper">
+            <div class="project__content">
+              <figure class="project-image">
+                <img
+                  src="./image/project-3.png"
+                  alt="Proyecto Fotos"
+                  title="Proyecto Fotos"
+                />
+              </figure>
+              <div class="project-description">
+                <h1 class="title primary">Fotos</h1>
+                <p class="text primary">
+                  Encuentra tus fotos más rápido. Tus fotos se organizan y
+                  permiten búsquedas en función de los lugares y las cosas que
+                  muestran, sin necesidad de etiquetarlas.
+                </p>
+                <div class="groupButtons">
+                  <a href="#" class="button primary">Ver código</a>
+                  <a href="#" class="button secundary">Ver código</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="experience">
+        </section>
+      </div>
+      <section class="experience" aria-label="Experiencia">
         <div class="wrapper">
           <div class="experience__content">
             <h1 class="title secondary">Experiencia</h1>
             <h2 class="title-2 secondary">
               Tengo más de 3 años de experiencia en Frontend.
             </h2>
-            <div class="layout-cards">
+            <div class="layout-cardProjects">
               <div class="card">
-                <h3 class="title secondary">Marvol</h3>
+                <h3 class="title tertiary">Marvol</h3>
                 <h4 class="subtitle">Frontend - 2018</h4>
                 <p class="text secondary">
                   ¡Marvol.com es el sitio oficial de Marvol Entertainment!
@@ -151,7 +163,7 @@
                 </p>
               </div>
               <div class="card">
-                <h3 class="title secondary">Niko</h3>
+                <h3 class="title tertiary">Niko</h3>
                 <h4 class="subtitle">Frontend - 2019</h4>
                 <p class="text secondary">
                   Encuentra lo mejor de Niko, con productos nuevos cada semana y
@@ -160,7 +172,7 @@
                 </p>
               </div>
               <div class="card">
-                <h3 class="title secondary">Netnet</h3>
+                <h3 class="title tertiary">Netnet</h3>
                 <h4 class="subtitle">Frontend - 2020</h4>
                 <p class="text secondary">
                   Netnet es una de las plataformas de entretenimiento con más
@@ -173,6 +185,40 @@
           </div>
         </div>
       </section>
+      <section class="contact" aria-label="Contactame">
+        <div class="wrapper">
+          <div class="contact__content">
+            <h3 class="title secondary">
+              ¿Quieres trabajar conmigo? ¡Hazme ping!
+            </h3>
+            <a class="contact__mail" href="mailto:davidmariolc.dev@gmail.com">
+              davidmariolc.dev@gmail.com
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__content">
+          <div class="footer-logo">
+            <a href="#"
+              ><img
+                src="./image/logo.png"
+                alt="Logo de pablo"
+                title="Logo de pablo"
+            /></a>
+          </div>
+          <div class="footer__socials">
+            <ul class="socials">
+              <li><a href="#">INSTAGRAM</a></li>
+              <li><a href="#">FACEBOOK</a></li>
+              <li><a href="#">TWITTER</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/app.js"></script>
   </body>
 </html>

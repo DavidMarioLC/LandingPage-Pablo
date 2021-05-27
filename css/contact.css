@@ -1,0 +1,23 @@
+.contact {
+  background: vaR(--blue);
+  padding: 2rem 0;
+}
+.contact .title {
+  padding-bottom: 2rem;
+  margin: 0;
+}
+
+.contact .contact__mail {
+  color: var(--tertiary);
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .contact__content {
+    max-width: 676px;
+    margin: auto;
+  }
+  .contact .title {
+    font: var(--headline2);
+  }
+}

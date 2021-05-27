@@ -1,6 +1,8 @@
 .hero {
   background: var(--white);
   padding: 2rem 0;
+  max-width: 676px;
+  margin: auto;
 }
 .avatar {
   margin: 0;

@@ -9,14 +9,22 @@
 }
 
 .title.secondary {
+  font: var(--headline3);
+  color: var(--white);
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.title.tertiary {
+  font: var(--headline3);
   color: var(--white);
   margin: 0;
   margin-top: 1rem;
 }
 
 .title-2 {
-  margin: 0;
   font: var(--body1);
+  margin: 0;
 }
 
 .title-2.primary {
@@ -30,4 +38,17 @@
   font-weight: 500;
   padding: 1rem 0;
   border-bottom: 1px solid #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font: var(--headline1);
+    margin: 0;
+  }
+  .title.secondary {
+    font: var(--headline1);
+    color: var(--white);
+    margin: 0;
+    margin-top: 1rem;
+  }
 }
