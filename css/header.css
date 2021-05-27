@@ -8,6 +8,9 @@
   display: flex;
   justify-content: space-between;
 }
+.header__content a img {
+  vertical-align: middle;
+}
 /* menu-mobile */
 
 .menu {
@@ -46,7 +49,7 @@
   font-weight: bold;
 }
 
-/*-- menu animado--*/
+/*-- menu icon animado--*/
 .menu-icon {
   height: 24px;
   width: 24px;
@@ -94,17 +97,14 @@
 }
 
 @media screen and (min-width: 768px) {
-  /* .menu-icon {
+  .menu-icon {
     display: none;
-  } */
+  }
   .menu {
-    opacity: 1;
-    height: 0;
+    opacity: initial;
+    height: initial;
     position: initial;
-    top: initial;
-    left: 0;
-    right: 0;
-    width: 0;
+    width: initial;
     background: var(--white);
     padding: 0;
   }

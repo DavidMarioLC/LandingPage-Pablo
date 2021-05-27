@@ -22,16 +22,19 @@
   --button: bold 1.125rem/1.68rem var(--fontbase);
   --primary: #2b79bd;
   --white: #fffffe;
-  --grey: #5f6c7b;
-  --secondary: #90b4ce;
-  --tertiary: #ef4565;
+  --whiteSecond: rgb(235, 227, 227);
+  --grey: #49535f;
+  --secondary: #487799;
+  --tertiary: #fa92a4;
   --blue: #094067;
   --background1: #d8eefe;
   --background2: #242629;
-  --buttoncolor1: #eaf0f3;
-  --buttoncolor2: #3da9fc;
+  --buttoncolor1: #ffffff;
+  --buttoncolor2: #1474bd;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font: var(--body1);

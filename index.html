@@ -4,6 +4,80 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portafolio de Pablo" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
     <title>Portafolio Pablo</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -26,10 +100,42 @@
           </a>
           <nav class="menu">
             <ul>
-              <li><a class="menu-link active" href="#">HOLA</a></li>
-              <li><a class="menu-link" href="#">PROYECTOS</a></li>
-              <li><a class="menu-link" href="#">TESTIMONIOS</a></li>
-              <li><a class="menu-link" href="#">CONTACTO</a></li>
+              <li>
+                <a
+                  current="page"
+                  rel="preload"
+                  class="menu-link active"
+                  href="#"
+                  >HOLA</a
+                >
+              </li>
+              <li>
+                <a
+                  current="page"
+                  rel="preload"
+                  class="menu-link"
+                  href="#project"
+                  >PROYECTOS</a
+                >
+              </li>
+              <li>
+                <a
+                  current="page"
+                  rel="preload"
+                  class="menu-link"
+                  href="#experience"
+                  >TESTIMONIOS</a
+                >
+              </li>
+              <li>
+                <a
+                  current="page"
+                  rel="preload"
+                  class="menu-link"
+                  href="#contact"
+                  >CONTACTO</a
+                >
+              </li>
             </ul>
           </nav>
           <div class="menu-icon">
@@ -68,7 +174,7 @@
           </div>
         </div>
       </section>
-      <div class="listProjects">
+      <div id="project" class="listProjects">
         <section class="project" aria-label="Proyectos de Netnet">
           <div class="wrapper">
             <div class="project__content">
@@ -87,8 +193,18 @@
                   nos ofrece, hay un diseño con el que está estructurada...
                 </p>
                 <div class="groupButtons">
-                  <a href="#" class="button primary">Ver código</a>
-                  <a href="#" class="button secundary">Ver código</a>
+                  <a
+                    href="https://twitter.com/DavidMarioLC"
+                    class="button primary"
+                    target="_blank"
+                    >Ver proyecto</a
+                  >
+                  <a
+                    href="https://github.com/DavidMarioLC/portafolio-pablo"
+                    class="button secundary"
+                    target="_blank"
+                    >Ver código</a
+                  >
                 </div>
               </div>
             </div>
@@ -112,8 +228,18 @@
                   usuarios.
                 </p>
                 <div class="groupButtons">
-                  <a href="#" class="button primary">Ver código</a>
-                  <a href="#" class="button secundary">Ver código</a>
+                  <a
+                    href="https://twitter.com/DavidMarioLC"
+                    class="button primary"
+                    target="_blank"
+                    >Ver Proyecto</a
+                  >
+                  <a
+                    target="_blank"
+                    href="https://github.com/DavidMarioLC/portafolio-pablo"
+                    class="button secundary"
+                    >Ver codigo</a
+                  >
                 </div>
               </div>
             </div>
@@ -127,6 +253,7 @@
                   src="./image/project-3.png"
                   alt="Proyecto Fotos"
                   title="Proyecto Fotos"
+                  target="_blank"
                 />
               </figure>
               <div class="project-description">
@@ -137,15 +264,25 @@
                   muestran, sin necesidad de etiquetarlas.
                 </p>
                 <div class="groupButtons">
-                  <a href="#" class="button primary">Ver código</a>
-                  <a href="#" class="button secundary">Ver código</a>
+                  <a
+                    href="https://twitter.com/DavidMarioLC"
+                    class="button primary"
+                    target="_blank"
+                    >Ver proyecto</a
+                  >
+                  <a
+                    href="https://github.com/DavidMarioLC/portafolio-pablo"
+                    class="button secundary"
+                    target="_blank"
+                    >Ver código</a
+                  >
                 </div>
               </div>
             </div>
           </div>
         </section>
       </div>
-      <section class="experience" aria-label="Experiencia">
+      <section id="experience" class="experience" aria-label="Experiencia">
         <div class="wrapper">
           <div class="experience__content">
             <h1 class="title secondary">Experiencia</h1>
@@ -185,7 +322,7 @@
           </div>
         </div>
       </section>
-      <section class="contact" aria-label="Contactame">
+      <section id="contact" class="contact" aria-label="Contactame">
         <div class="wrapper">
           <div class="contact__content">
             <h3 class="title secondary">
@@ -211,14 +348,26 @@
           </div>
           <div class="footer__socials">
             <ul class="socials">
-              <li><a href="#">INSTAGRAM</a></li>
-              <li><a href="#">FACEBOOK</a></li>
-              <li><a href="#">TWITTER</a></li>
+              <li>
+                <a target="_blank" href="https://twitter.com/DavidMarioLC"
+                  >INSTAGRAM</a
+                >
+              </li>
+              <li>
+                <a target="_blank" href="https://twitter.com/DavidMarioLC"
+                  >FACEBOOK</a
+                >
+              </li>
+              <li>
+                <a target="_blank" href="https://twitter.com/DavidMarioLC"
+                  >TWITTER</a
+                >
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </footer>
-    <script src="./js/app.js"></script>
+    <script rel="preload" as="script" src="./js/app.js"></script>
   </body>
 </html>

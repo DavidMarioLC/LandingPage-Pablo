@@ -19,7 +19,7 @@
 }
 
 .socials a {
-  color: var(--secondary);
+  color: var(--whiteSecond);
   text-decoration: underline;
   font-weight: bold;
 }
